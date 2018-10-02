@@ -1,0 +1,24 @@
+{
+  "name": "m2s",
+  "version": "1.0.0",
+  "description": "cmd line utility handling unix timestamps in miliseconds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schemiii/m2s.git"
+  },
+  "keywords": [
+    "timestamp",
+    "miliseconds",
+    "converter"
+  ],
+  "author": "Daniel - Schemiii - Schmidt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Schemiii/m2s/issues"
+  },
+  "homepage": "https://github.com/Schemiii/m2s#readme"
+}

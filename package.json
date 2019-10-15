@@ -4,6 +4,7 @@
   "description": "cmd line utility handling unix timestamps in miliseconds",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,10 +16,11 @@
     "miliseconds",
     "converter"
   ],
-  "author": "Daniel - Schemiii - Schmidt",
+  "author": "Schemiii",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Schemiii/m2s/issues"
   },
-  "homepage": "https://github.com/Schemiii/m2s#readme"
+  "homepage": "https://github.com/Schemiii/m2s#readme",
+  "main": "src/index.js"
 }

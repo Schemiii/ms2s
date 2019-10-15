@@ -1,10 +1,11 @@
-# m2s
-cmd line tool to handle unix milisecond timestamps
-# installation
-npm install -g m2s
+# ms2s
+"cmd line tool" to handle unix milisecond timestamps
+# Installation
+npm install -g ms2s
 # motivation / usage
-in a world of unix timestamps there was no tool to do stuff like
+In a world of unix timestamps i missed a tool to handle timestamp conversions from unix miliseconds to unix seconds
 ## convert miliseconds to seconds
+### pipe into ms2s
 echo "1556010294140
 1556011611129
 1556011676909
@@ -25,4 +26,4 @@ echo "1556010294140
 1556016560895
 1556016627231
 1556016693227
-1556016758816" | m2s | while read s; do date -d "$s" "+%s"; done 
+1556016758816" | ms2s | while read s; do date -d "$s" "+%s"; done 

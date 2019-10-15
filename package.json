@@ -1,5 +1,5 @@
 {
-  "name": "m2s",
+  "name": "ms2s",
   "version": "1.0.0",
   "description": "cmd line utility handling unix timestamps in miliseconds",
   "main": "src/index.js",

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { pipeline, Transform } = require('stream')
 const { StringDecoder } = require('string_decoder')
 
